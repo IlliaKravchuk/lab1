@@ -52,11 +52,11 @@ Resource URIs look like `http://example.org/films/film/Inception`; ontology term
 ## Run
 
 ```bash
-python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # Linux / macOS
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install --upgrade pip
 pip install -r requirements.txt
-python main.py
+python3 main.py
 ```
 
 The last step opens a Matplotlib window with the graph. Close it to let the program finish.
